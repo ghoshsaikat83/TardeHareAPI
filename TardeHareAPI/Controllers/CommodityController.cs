@@ -21,6 +21,7 @@ namespace TardeHareAPI.Controllers
             return result;
         }
 
+        // Test
         [Route("api/Commodity/AddCommodity")]
         [HttpPost]
         public IHttpActionResult AddCommodity(CommodityViewModel objcomm)
